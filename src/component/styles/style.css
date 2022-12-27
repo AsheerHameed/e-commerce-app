@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lobster+Two&family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    padding: 8px;
+}
+
+.Header {
+    background: "red";
+
+}
+
+.search {
+    margin-top: 25px;
+    border: none;
+    position: absolute;
+    width: 573px;
+    height: 50px;
+    left: 451px;
+    top: 120px;
+
+    /* Light/Base Color/White */
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.mainPageHeading{
+
+/* Display/Display Bold */
+
+letter-spacing: 0.003em;
+
+/* Light/Text Color/Title */
+
+color: #11142D;
+}
+
+.productOption{
+    color:"#9A9AB0" !important;
+
+}
+.active{
+    color:"#F86338";
+}
+
+
+.findOut {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'DM sans',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    margin-top: 50px;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    margin-bottom:120px;
+  }
+  
+  
+  .findOut:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .findOut:hover {
+    transform: translateY(-1px);
+  }
+  
+  .findOut:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  } 
+
+
+
+  div a{
+    text-decoration: none;
+    font-weight: bolder;
+    color:"black"
+  }
+  
+div a.active{
+  text-decoration: none;
+  font-weight: bolder;
+  color:#F86338;
+}
+
