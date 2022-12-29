@@ -31,7 +31,7 @@ function Navbar() {
                     <SearchIcon sx={{ fontSize: "40px", display: {lg:"flex",xs:'none' }, marginLeft: "680px", zIndex: '100' }} />
                 </Box>
                 <Box sx={{
-                    display: "flex", justifyContent: "space-between",display: {lg:"flex",xs:'none' }, marginLeft: "180px"
+                    display: "flex", justifyContent: "space-between",display: {lg:"flex",xs:'none' }, marginLeft: "72px"
                 }}>
                     <FavoriteBorderIcon style={{ fontSize: "40px" }} />
                     <ShoppingCartIcon style={{ fontSize: "40px" }} />

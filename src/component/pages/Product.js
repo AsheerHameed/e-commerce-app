@@ -16,7 +16,7 @@ function Product() {
         setItems(updatedItems);
     }
     return (
-        <Box sx={{ padding:{ xs:"-500px 10px 100px 10px",lg:"75px 55px 255px 55px"}, background: '#E5E5E5' }}>
+        <Box sx={{ padding:{ xs:"-480px 10px 100px 10px",lg:"75px 55px 255px 55px"}, background: '#E5E5E5' }}>
             <Box>
                 <Typography sx={{
                     fontFamily: "DM sans", fontWeight: "bolder",

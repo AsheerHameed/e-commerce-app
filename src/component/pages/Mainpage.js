@@ -71,7 +71,7 @@ function Mainpage() {
                     width: {xs:"8px" ,lg:"9px"},
                     height:{xs:"8px" ,lg:"9px"},
                     left: {xs:"29px",lg:"119px"},
-                    top: {xs:"300px",lg:"598px"},
+                    top: {xs:"300px",lg:"558px"},
 
                 }}>
                     <img src={two} alt="vector" srcset="" />
@@ -95,10 +95,10 @@ function Mainpage() {
                     width: {xs:"8px" ,lg:"100px"},
                     height:{xs:"8px" ,lg:"100px"},
                     left: {xs:"222px",lg:"564px"},
-                    top: {xs:"300px",lg:"593px"},
+                    top: {xs:"300px",lg:"453px"},
 
                 }}>
-                    <img src={four} alt="vector" srcset="" />
+                    <img src={four} alt="vector4" srcset="" />
                 </Box>
 
 
@@ -118,7 +118,7 @@ function Mainpage() {
                     position: 'absolute',
                     width: "100px",
                     height: "100px",
-                    left: "1226px",
+                    left: "1206px",
                     top: '24px',
                     display:{xs:"none",lg:"block"}
                 }}>

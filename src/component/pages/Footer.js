@@ -6,12 +6,22 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { display } from '@mui/system';
 
 function Footer() {
   return (
-    <Box className="footer" sx={{padding:{lg:"50px 20px 35px 20px",xs:"350px 20px 35px 20px;"}}}>
-        <img src='https://source.unsplash.com/random' height='260px' width='250px' style={{ marginRight:'1120px' }} />
+    <Box className="footer" sx={{padding:{lg:"50px 20px 35px 20px",xs:"30px 20px 35px 20px;"}}}>
+        <Box
+        component="img"
+        sx={{
+          marginRight:{lg:"920px",xs:"start"},
+          borderRadius:{lg:"15px",xs:"25px"},
+          height: 260,
+          width: 250,
+          // <img src='https://images.unsplash.com/photo-1620288627223-53302f4e8c74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80' height='260px' width='250px' style={{  />
+        }}
+        alt="Lotus"
+        src="https://images.unsplash.com/photo-1557053965-626a58d7b7b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      />
       <Box sx={{ marginLeft: "260px", marginTop: "-253px" ,display:{xs:'none',lg:'block'}}}>
         <Box style={{ display: 'flex', justifyContent: 'space-between ' }}>
           <Box>
@@ -35,9 +45,6 @@ function Footer() {
             &copy; AsheerHameed All Rights reserved     </Typography>
         </Box>
       </Box>
-
-
-
     </Box >
   )
 }
