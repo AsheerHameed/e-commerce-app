@@ -10,9 +10,9 @@ import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNone
 
 function Navbar() {
     return (
-        <Box style={{ background: "#E5E5E5", display: "flex", justifyContent: "space-between" }}>
+        <Box style={{ background: "#E5E5E5", display: "flex", justifyContent: "space-between",borderRadius:"7px" }}>
             <Box style={{ display: "flex" }}>
-                <Box style={{ display: "flex", justifyContent: "space-between" }}>
+                <Box sx={{ display: "flex", justifyContent: "space-between" ,marginLeft:{xs:"32px"}}}>
                     <Typography style={{ fontFamily: "DM Sans", fontWeight: "bolder" }}>
                         Shop
                     </Typography>
@@ -28,7 +28,7 @@ function Navbar() {
                 </Box>
                 <Box sx={{ display: {lg:"flex",xs:'none' }}}>
                     <input type="search" placeholder='Search what you need' className='search'/> 
-                    <SearchIcon sx={{ fontSize: "40px", display: {lg:"flex",xs:'none' }, marginLeft: "680px", zIndex: '100' }} />
+                    <SearchIcon sx={{ fontSize: "40px", display: {lg:"flex",xs:'none' }, marginLeft: "640px", zIndex: '100' }} />
                 </Box>
                 <Box sx={{
                     display: "flex", justifyContent: "space-between",display: {lg:"flex",xs:'none' }, marginLeft: "72px"

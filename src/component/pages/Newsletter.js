@@ -1,17 +1,17 @@
 import React from 'react'
-import { Box,Input, Card, CardContent, Typography, CardMedia, Grid } from '@mui/material'
+import { Box,Input, Typography } from '@mui/material'
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 function Newsletter() {
     return (
-        <Box style={{align:"center"}}>
+        <Box sx={{align:"center",paddingBottom:{xs:"5px",lg:"90px"},}}>
  <Box sx={{
             position: 'relative',
-            width: { lg: "1230px" ,xs:"100wh"},
+            width: { lg: "1050px" ,xs:"100wh"},
             height: { xs: "350px", lg: "100wh" },
-            left: { lg: "-35px", xs: '6px' },
-            top: { lg: "160px", xs: '35px' },
+            left: { lg: "110px", xs: '1px' },
+            top: { lg: "50px", xs: '35px' },
             background: 'white',
-            borderRadius: {lg:"10px",xs:'7px'},
+            borderRadius: {lg:"4px",xs:'2px'},
             paddingTop: { xs: "5px",lg:'50px' },
             marginBottom:{xs: "150px",lg:'50px'}
         }}>
@@ -43,7 +43,7 @@ function Newsletter() {
                         color: '#F86338',
                         fontSize: {lg:"55px",xs:"45px"},
                         position: 'absolute',
-                        left: {xs:'188px',lg:"975px"},
+                        left: {xs:'205px',lg:"880px"},
                         top:  {xs:'240px',lg:"230px"},
                         
                     }} />

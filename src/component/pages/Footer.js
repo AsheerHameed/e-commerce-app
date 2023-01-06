@@ -17,21 +17,22 @@ function Footer() {
           borderRadius:{lg:"15px",xs:"25px"},
           height: 260,
           width: 250,
+          display:{xs:"none",lg:"block"}
           // <img src='https://images.unsplash.com/photo-1620288627223-53302f4e8c74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80' height='260px' width='250px' style={{  />
         }}
         alt="Lotus"
-        src="https://images.unsplash.com/photo-1557053965-626a58d7b7b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        src="https://images.unsplash.com/photo-1656041968624-4a471e61016d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
       />
-      <Box sx={{ marginLeft: "260px", marginTop: "-253px" ,display:{xs:'none',lg:'block'}}}>
+      <Box sx={{ marginLeft: {lg:"260px",xs:"-95px"}, marginTop: {lg:"-253px",xs:"10px"} ,display:{lg:'block'}}}>
         <Box style={{ display: 'flex', justifyContent: 'space-between ' }}>
           <Box>
             <img src={logo} style={{ marginTop:"-35px",marginLeft: "45px", display: "inline" }} alt='logo' />
           </Box>
-          <Box>
-            <YouTubeIcon style={{ fontSize: '45px', marginTop:"-35px"}} />
-            <FacebookIcon style={{ fontSize: '45px',marginTop:"-35px" }} />
-            <TwitterIcon style={{ fontSize: '45px', marginTop:"-35px"}} />
-            <InstagramIcon style={{ fontSize: '45px', marginTop:"-35px"}} />
+          <Box display="flex" justifyContent="space-between" sx={{marginLeft:{xs:"20px"},marginTop:{xs:"-15px"}}}>
+            <YouTubeIcon sx={{ fontSize: {lg:"45px",xs:"35px"}, display:{xs:"inline",lg:"block"},}} />
+            <FacebookIcon sx={{ fontSize:  {lg:"45px",xs:"35px"}, display:{xs:"inline",lg:"block"}, }} />
+            <TwitterIcon sx={{ fontSize:  {lg:"45px",xs:"35px"},  display:{xs:"inline",lg:"block"},}} />
+            <InstagramIcon sx={{ fontSize:  {lg:"45px",xs:"35px"}, display:{xs:"inline",lg:"block"}, }} />
           </Box>
         </Box>
         <Box style={{ textAlign: "left", marginLeft: "55px" }}>

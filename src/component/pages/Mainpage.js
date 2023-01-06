@@ -14,14 +14,14 @@ function Mainpage() {
     return (
         <Box sx={{
             position: "relative",
-            height: {xs:"50vh",lg:"100vh"}
+            height: {xs:"50vh",lg:"70vh"}
             ,background:"white"
         }}>
             <Box className="responsive">
                 <Typography className="mainPageHeading" sx={{
                     position:'absolute',
                     left: {xs:'start',lg:"698px"},
-                    top: {xs:'140px',lg:"220px"},     
+                    top: {xs:'140px',lg:"140px"},     
                     fontFamily: 'DM Sans',
                     fontStyle: 'normal',
                     fontWeight: "bolder",
@@ -41,7 +41,7 @@ function Mainpage() {
 
                     height: '40px',
                     left: {xs:"start" ,lg:"706px"},
-                    top: {xs:"250px",lg:"405px"},
+                    top: {xs:"250px",lg:"300px"},
                     fontFamily: 'DM Sans',
                     fontStyle: 'normal',
                     fontWeight: '400',
@@ -60,7 +60,7 @@ function Mainpage() {
                     width: {xs:"20px" ,lg:"100px"},
                     height:{xs:"20px" ,lg:"100px"},
                     left: {lg:"68px",xs:'12px'},
-                    top: {lg:"23.92px",xs:'18px'},
+                    top: {lg:"5px",xs:'18px'},
                     
                 }}>
                     <img src={one} alt="vector" srcset="" />
@@ -71,7 +71,7 @@ function Mainpage() {
                     width: {xs:"8px" ,lg:"9px"},
                     height:{xs:"8px" ,lg:"9px"},
                     left: {xs:"29px",lg:"119px"},
-                    top: {xs:"300px",lg:"558px"},
+                    top: {xs:"300px",lg:"380px"},
 
                 }}>
                     <img src={two} alt="vector" srcset="" />
@@ -94,8 +94,8 @@ function Mainpage() {
                     position: 'absolute',
                     width: {xs:"8px" ,lg:"100px"},
                     height:{xs:"8px" ,lg:"100px"},
-                    left: {xs:"222px",lg:"564px"},
-                    top: {xs:"300px",lg:"453px"},
+                    left: {xs:"222px",lg:"450px"},
+                    top: {xs:"300px",lg:"350px"},
 
                 }}>
                     <img src={four} alt="vector4" srcset="" />
@@ -107,7 +107,7 @@ function Mainpage() {
                     width: "100px",
                     height: "100px",
                     left: "885px",
-                    top: '550px',
+                    top: '400px',
                     display:{xs:'none',lg:"block"}
                 }}>
                     <img src={five} alt="vector" srcset="" />
@@ -118,7 +118,7 @@ function Mainpage() {
                     position: 'absolute',
                     width: "100px",
                     height: "100px",
-                    left: "1206px",
+                    left: "1110px",
                     top: '24px',
                     display:{xs:"none",lg:"block"}
                 }}>
@@ -130,8 +130,8 @@ function Mainpage() {
                     position: 'absolute',
                     width: "100px",
                     height: "100px",
-                    left: "1200px",
-                    top: '465px',
+                    left: "1110px",
+                    top: '350px',
                     display:{xs:"none" ,lg:'block'}
                 }}>
                     <img src={seven} alt="vector" srcset="" />

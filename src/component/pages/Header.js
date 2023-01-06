@@ -14,7 +14,7 @@ function Header() {
             <Box style={{display:"flex"}}>
                 <Box style={{display:"flex"}}>
                     <CallIcon sx={{fontSize:{lg:"45px",xs:"30px"}}}/>
-                    <Typography sx={{fontFamily:"DM Sans" ,fontSize:{xs:"8px",lg:"16px"},marginLeft:{xs:"-10px",lg:"-4px"},fontWeight:"bolder"}}>
+                    <Typography sx={{fontFamily:"DM Sans" ,fontSize:{xs:"8px",lg:"16px"},marginLeft:{xs:"-5px",lg:"-4px"},fontWeight:"bolder"}}>
                         Call center
                     </Typography>
                 </Box>
@@ -32,4 +32,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header   
